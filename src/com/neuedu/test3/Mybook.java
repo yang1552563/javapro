@@ -1,10 +1,12 @@
 package com.neuedu.test3;
 
+import java.io.Serializable;
+
 /**
  * @author bin
  * @date 2020/2/10 0010 14:53
  */
-public class Mybook {
+public class Mybook implements Serializable{
     private String name;
     private Double price;
     private String press;
